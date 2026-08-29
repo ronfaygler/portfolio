@@ -1,5 +1,6 @@
 import aiLogAnalysisImage from "../assets/log-analysis.jpg";
 import travelTipsImage from "../assets/travel-tips.jpg";
+import qaVqaImage from "../assets/vqa-final-project.jpeg";
 import wikiSearchImage from "../assets/wiki.jpg";
 import worldAttractionsImage from "../assets/world.jpg";
 import type { ContactLink, Project, SkillCategory, TimelineItem } from "./types";
@@ -71,7 +72,7 @@ export const projects: Project[] = [
     title: "QA-VQA Final Project",
     description:
       "A research project evaluating how LLMs handle unanswerable questions with presupposition conflicts or faulty assumptions, using visual and textual context to test whether models know when to rely on internal knowledge versus the given context.",
-    image: "https://placehold.co/600x400/1e293b/e2e8f0?text=QA-VQA",
+    image: qaVqaImage,
     tags: ["OpenAI API", "GPT", "Llama", "Python"],
     githubUrl: "https://github.com/ronfaygler/QA-VQA-Final-Project",
   },
