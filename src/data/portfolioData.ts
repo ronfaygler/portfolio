@@ -67,6 +67,14 @@ export const projects: Project[] = [
     tags: ["Python", "Flask", "Information Retrieval", "GCP"],
     githubUrl: "https://github.com/ronfaygler/wiki_search_engine",
   },
+  {
+    title: "QA-VQA Final Project",
+    description:
+      "A research project evaluating how LLMs handle unanswerable questions with presupposition conflicts or faulty assumptions, using visual and textual context to test whether models know when to rely on internal knowledge versus the given context.",
+    image: "https://placehold.co/600x400/1e293b/e2e8f0?text=QA-VQA",
+    tags: ["OpenAI API", "GPT", "Llama", "Python"],
+    githubUrl: "https://github.com/ronfaygler/QA-VQA-Final-Project",
+  },
 ];
 
 export const timeline: TimelineItem[] = [
