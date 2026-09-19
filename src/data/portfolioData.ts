@@ -43,6 +43,7 @@ export const projects: Project[] = [
     image: aiLogAnalysisImage,
     tags: ["Claude API", "Docker", "Redis", "Microservices", "Node.js", "React"],
     githubUrl: "https://github.com/ronfaygler/AI-Log-Analysis",
+    demoUrl: "https://ai-log-analysis-ten.vercel.app/",
   },
   {
     title: "World Attractions Website",
